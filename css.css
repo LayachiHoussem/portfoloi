@@ -1,0 +1,566 @@
+
+*{
+  font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+a{
+    color: white;
+    text-decoration: none ;
+
+}
+  .checkbtn{
+    color: #2af0c5;
+    font-size: 3em;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+    line-height: 2em;
+    padding-top: 0.5em;
+  }
+ #check{
+  display: none;
+ }
+header{
+    background: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 10px 100px;
+    transition: all 0.5s;
+    
+}
+
+.logo{
+   
+    font-size: 1.8em;
+    color: aquamarine;
+
+}
+.link{
+    font-size: 1.3em;
+    width: 25em;
+    display: inline-flex;
+    line-height: 3em;
+    align-items: center;
+    list-style: none;
+    color: aquamarine;
+    justify-content: space-between;
+    border-bottom: 2px solid transparent;
+
+
+}
+.link a:hover{
+ border-bottom: 2px solid aquamarine;
+
+ color: aquamarine;
+}
+section{
+  transition: all 0.5s;
+    padding: 100px 200px;
+    
+    
+}
+html.is-animations section {
+  opacity: 1;
+  transform: translateX(100%);
+}
+.main{
+  background: black;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+    grid-template-rows: repeat(1,auto);
+}
+.main2{
+  background: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+  
+    justify-content: space-between; 
+}
+.cont{
+  margin: 10px 30px;
+ 
+width: 50em;
+    
+}
+.cont:hover{
+ 
+}
+h1 ,#tin{
+  font-size: 2em;
+  text-align: center;
+}
+h1{
+      
+    color:#ffffff;
+    margin-bottom: 1rem;
+    font-size: 3rem ;
+    font-weight: 700    ;
+    color: hsl(0, 0%, 100%);
+   
+}
+h1 span {
+    transition: 0.5s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 0rem;
+  }
+  h1:hover span:nth-child(1):after {
+    content: "";
+  }
+  h1:hover span:nth-child(2) {
+    margin-left: 0.75rem;
+  }
+  h1:hover span {
+    color: #ffffffc0;
+    text-shadow: 0 0 0.75rem #f5f0f0a1, 0 0 0.75rem #2af0c5c8, 0 0 1.4rem #2af0c5c8;
+  }
+
+h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #13b4a7;
+    text-transform: uppercase;
+   
+
+}
+h4{
+  word-spacing: 0.2em;
+  font-size:1.7em;
+  margin-right:2em ;
+}
+
+h4 span{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #13b4a7;
+  text-transform: uppercase;
+ 
+
+}
+
+.text{
+   word-spacing: 0.1em;
+  color: #13b4a7;
+  font-size: 1.5em;
+  font-weight: 100px;
+}
+p{
+    word-spacing:5px ;
+    font-size: 1.5em;
+}
+button{
+  font-family:'Times New Roman', Times, serif;
+        margin-top: 2rem;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #13b4a7;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 10px;
+      border: 2px solid transparent;
+      transition: 0.7s ease;
+
+
+}
+button:hover{
+    border: 2px solid #13b4a7;
+    color: #13b4a7;
+    background: transparent;
+    transform: scale(1.1);}
+
+
+.contact{
+background: white;
+width: 100%;
+height: 70vh;
+transition: all 0.5s;
+}
+span{
+  color:#13b4a7;
+}
+.main2 .images2 img {
+  border-radius: 150px;
+  position: flex;
+  border: 5px solid white;
+}
+
+h2{
+  color: #13b4a7;
+  display: flex;
+  justify-content: center;
+  font-size:50px ;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  transition: 0.8s ease;
+}
+h2:hover{
+  transform: scale(1.5);
+
+}
+.content-c{
+display:flex;
+justify-content: center;
+flex-direction:row;
+flex-wrap: wrap;
+color: white;
+transition: all 0.5s;
+}
+.card{
+ 
+    background: black;
+    width: 30em;
+    box-shadow:  0 -5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px ;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+} 
+
+.card:hover{
+  transform: scale(1.1);
+}
+.icon{
+  color: #2af0c5;
+  font-size: 3em;
+  text-align: center;
+  margin:15px;
+}
+.info {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  background: black;
+  
+}
+.info h3{
+  font-size: 1.7em;
+  margin: 10px ;
+
+}
+.info p{
+  font-family:'Times New Roman', Times, serif;
+}
+.footer{
+  background: black;
+  width: 100%;
+  height: auto;
+
+
+}
+.social{
+ 
+  display: flex;
+  list-style: none;
+  justify-content:center;
+  margin: 10px 500px;
+
+  
+  width: 25em;
+ 
+}
+.sociall{
+  font-size: 2.5em;
+  color: #2af0c5;
+  transition: 0.7s ease;
+  margin: 2em;
+}
+
+.sociall:hover{
+transform: scale(1.5);
+}
+.container{
+  background: black;
+width: 100%;
+
+}
+.tiT-SK{
+  margin-top: 2em;
+  transition: 1s ease;
+}
+.tiT-SK:hover{
+  transform: scale(1.5);
+
+}
+ .skillss{
+  height: 100vh;
+  background: black;
+  width: 100%;
+
+ padding: 3px;
+
+ }
+
+.sk-icon{
+  color: #2af0c5;
+  font-size: 10em;
+  border-radius: 10px;
+  padding: 15px;
+  border:  3px solid #2af0c5;
+  margin: 30px;
+  transition: 0.7s ease;
+}
+.sk-icon:hover{
+  transform: scale(1.2);
+}
+.titel-sk{
+  color: #2af0c5;
+  padding: 20px;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.badges{
+  background: #131212;
+  width: 100%;
+  
+}
+.badges h2{
+color: #13b4a7;
+  display: flex;
+  justify-content: center;
+  font-size:50px ;
+  margin-bottom: 30px;
+  margin-top: 7px;
+  transition: 0.8s ease;
+}
+.image-bages img  {
+     width: 100%;   
+}
+.card-badgs .info-bd h3{
+  text-align: center;
+  font-size: 1.7em;
+  margin: 10px ;
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.card-badgs .info-bd p{
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  text-align:  center;
+}
+  .card-badgs{
+    overflow: hidden;
+    background-color: white;
+    width: 22em;
+    border: 1px solid white;
+   
+    border-radius: 10px ;
+    margin: 15px;
+    transition: 0.7s ease;
+} 
+
+.card-badgs:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 1023px) {
+  header {
+      padding: 10px 50px; /* Adjust padding for smaller screens */
+      height: 50px;
+  }
+  nav .checkbtn{
+    display: block;
+  }
+  
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 35vh;
+    background: #22c5a286;
+    top: 100px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    line-height: 5px;
+    margin: 10px 20px;
+  
+  }
+  nav ul li a {
+    font-size: 20px;
+    color:  white;
+    margin: 50px;
+  
+
+  }
+   #check:checked ~ ul {
+    right: 0;
+  }
+  .link {
+      width: auto; /* Allow links to wrap on smaller screens */
+  }
+  .link a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+   }
+
+  section {
+      padding: 50px; /* Adjust padding for smaller screens */
+  }
+  
+ h1 ,#tin{
+    padding-top: 1em ;
+    font-size: 1em;
+    text-align: left;
+  }
+  .main,
+  .main2 {
+      grid-template-columns: 1fr;
+      /* Change to a single column layout on smaller screens */
+  }
+  .main2 .images2 img {
+    size: 20px;
+    border-radius: 150px;
+    position: flex;
+    border: 5px solid white;
+  }
+  p{
+    font-size: 1em;
+  }
+
+  .cont {
+      margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  h1 {
+      font-size: 2em; /* Adjust font size for smaller screens */
+  }
+
+  h4 {
+      font-size: 1.3em; /* Adjust font size for smaller screens */
+  }
+
+  button {
+      margin-top: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .contact {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .card {
+      width: 100%; /* Make cards full width on smaller screens */
+  }
+  .cont .p{
+    font-size: 0.5em;
+  }
+
+  .footer {
+      margin: 10px 50px; /* Adjust margin for smaller screens */
+  }
+
+  .social {
+      margin: 10px 100px; /* Adjust margin for smaller screens */
+  }
+
+  .skillss {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .titel-sk {
+      margin: 50px; /* Adjust margin for smaller screens */
+  }
+
+  .badges {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .card-badgs {
+      width: 100%; /* Make cards full width on smaller screens */
+  }
+}
+/* Existing code... */
+
+@media (max-width: 641px) {
+ 
+
+  header {
+      padding: 10px 30px; /* Adjust padding for smaller screens */
+  }
+
+  .link {
+      width: auto; /* Allow links to wrap on smaller screens */
+      display: flex;
+      flex-direction: column;
+  }
+
+  section {
+      padding: 30px; /* Adjust padding for smaller screens */
+  }
+
+  .main,
+  .main2 {
+      grid-template-columns: 1fr; /* Change to a single column layout on smaller screens */
+  }
+
+  .cont {
+      margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  h4 {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  button {
+      margin-top: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .contact {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .card {
+      width: 100%; /* Make cards full width on smaller screens */
+  }
+
+  .footer {
+      margin: 10px 30px; /* Adjust margin for smaller screens */
+  }
+
+  .social {
+      margin: 10px 50px; /* Adjust margin for smaller screens */
+  }
+
+  .skillss {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .titel-sk {
+      margin: 30px; /* Adjust margin for smaller screens */
+  }
+
+  .badges {
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+  }
+
+  .card-badgs {
+      width: 100%; /* Make cards full width on smaller screens */
+  }
+}
